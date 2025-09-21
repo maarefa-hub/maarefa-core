@@ -1,0 +1,33 @@
+`html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الملف الشخصي</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+  <header>
+    <h1>الملف الشخصي</h1>
+  </header>
+  <main>
+    <section>
+      <p>مرحبًا بك في صفحتك الشخصية. يمكنك هنا تعديل معلوماتك ومتابعة نشاطك داخل المنصة.</p>
+      <form>
+        <label for="name">الاسم الكامل:</label>
+        <input type="text" id="name" name="name" placeholder="أدخل اسمك">
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني">
+
+        <label for="bio">نبذة عنك:</label>
+        <textarea id="bio" name="bio" placeholder="اكتب نبذة قصيرة عنك"></textarea>
+
+        <button type="submit">حفظ التغييرات</button>
+      </form>
+    </section>
+  </main>
+  <script src="chat.js"></script>
+</body>
+</html>
+`
